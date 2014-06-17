@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		778EC0A21950DEBD00560D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778EC0A11950DEBD00560D79 /* AppDelegate.swift */; };
+		778EC0A51950DEBD00560D79 /* room_spaces_cocoapod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 778EC0A31950DEBD00560D79 /* room_spaces_cocoapod.xcdatamodeld */; };
+		778EC0A71950DEBD00560D79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778EC0A61950DEBD00560D79 /* Images.xcassets */; };
+		778EC0B31950DEBD00560D79 /* room_spaces_cocoapodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778EC0B21950DEBD00560D79 /* room_spaces_cocoapodTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		778EC0AD1950DEBD00560D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778EC0941950DEBD00560D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778EC09B1950DEBD00560D79;
+			remoteInfo = "room-spaces-cocoapod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		778EC09C1950DEBD00560D79 /* room-spaces-cocoapod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "room-spaces-cocoapod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778EC0A01950DEBD00560D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778EC0A11950DEBD00560D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		778EC0A41950DEBD00560D79 /* room_spaces_cocoapod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = room_spaces_cocoapod.xcdatamodel; sourceTree = "<group>"; };
+		778EC0A61950DEBD00560D79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		778EC0AC1950DEBD00560D79 /* room-spaces-cocoapodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "room-spaces-cocoapodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778EC0B11950DEBD00560D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778EC0B21950DEBD00560D79 /* room_spaces_cocoapodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = room_spaces_cocoapodTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778EC0991950DEBD00560D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778EC0A91950DEBD00560D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778EC0931950DEBD00560D79 = {
+			isa = PBXGroup;
+			children = (
+				778EC09E1950DEBD00560D79 /* room-spaces-cocoapod */,
+				778EC0AF1950DEBD00560D79 /* room-spaces-cocoapodTests */,
+				778EC09D1950DEBD00560D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		778EC09D1950DEBD00560D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778EC09C1950DEBD00560D79 /* room-spaces-cocoapod.app */,
+				778EC0AC1950DEBD00560D79 /* room-spaces-cocoapodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778EC09E1950DEBD00560D79 /* room-spaces-cocoapod */ = {
+			isa = PBXGroup;
+			children = (
+				778EC0A11950DEBD00560D79 /* AppDelegate.swift */,
+				778EC0A61950DEBD00560D79 /* Images.xcassets */,
+				778EC0A31950DEBD00560D79 /* room_spaces_cocoapod.xcdatamodeld */,
+				778EC09F1950DEBD00560D79 /* Supporting Files */,
+			);
+			path = "room-spaces-cocoapod";
+			sourceTree = "<group>";
+		};
+		778EC09F1950DEBD00560D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				778EC0A01950DEBD00560D79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		778EC0AF1950DEBD00560D79 /* room-spaces-cocoapodTests */ = {
+			isa = PBXGroup;
+			children = (
+				778EC0B21950DEBD00560D79 /* room_spaces_cocoapodTests.swift */,
+				778EC0B01950DEBD00560D79 /* Supporting Files */,
+			);
+			path = "room-spaces-cocoapodTests";
+			sourceTree = "<group>";
+		};
+		778EC0B01950DEBD00560D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				778EC0B11950DEBD00560D79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778EC09B1950DEBD00560D79 /* room-spaces-cocoapod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778EC0B61950DEBD00560D79 /* Build configuration list for PBXNativeTarget "room-spaces-cocoapod" */;
+			buildPhases = (
+				778EC0981950DEBD00560D79 /* Sources */,
+				778EC0991950DEBD00560D79 /* Frameworks */,
+				778EC09A1950DEBD00560D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "room-spaces-cocoapod";
+			productName = "room-spaces-cocoapod";
+			productReference = 778EC09C1950DEBD00560D79 /* room-spaces-cocoapod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		778EC0AB1950DEBD00560D79 /* room-spaces-cocoapodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778EC0B91950DEBD00560D79 /* Build configuration list for PBXNativeTarget "room-spaces-cocoapodTests" */;
+			buildPhases = (
+				778EC0A81950DEBD00560D79 /* Sources */,
+				778EC0A91950DEBD00560D79 /* Frameworks */,
+				778EC0AA1950DEBD00560D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				778EC0AE1950DEBD00560D79 /* PBXTargetDependency */,
+			);
+			name = "room-spaces-cocoapodTests";
+			productName = "room-spaces-cocoapodTests";
+			productReference = 778EC0AC1950DEBD00560D79 /* room-spaces-cocoapodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778EC0941950DEBD00560D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LTG;
+				TargetAttributes = {
+					778EC09B1950DEBD00560D79 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					778EC0AB1950DEBD00560D79 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 778EC09B1950DEBD00560D79;
+					};
+				};
+			};
+			buildConfigurationList = 778EC0971950DEBD00560D79 /* Build configuration list for PBXProject "room-spaces-cocoapod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 778EC0931950DEBD00560D79;
+			productRefGroup = 778EC09D1950DEBD00560D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778EC09B1950DEBD00560D79 /* room-spaces-cocoapod */,
+				778EC0AB1950DEBD00560D79 /* room-spaces-cocoapodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778EC09A1950DEBD00560D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778EC0A71950DEBD00560D79 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778EC0AA1950DEBD00560D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778EC0981950DEBD00560D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778EC0A21950DEBD00560D79 /* AppDelegate.swift in Sources */,
+				778EC0A51950DEBD00560D79 /* room_spaces_cocoapod.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778EC0A81950DEBD00560D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778EC0B31950DEBD00560D79 /* room_spaces_cocoapodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		778EC0AE1950DEBD00560D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778EC09B1950DEBD00560D79 /* room-spaces-cocoapod */;
+			targetProxy = 778EC0AD1950DEBD00560D79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		778EC0B41950DEBD00560D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		778EC0B51950DEBD00560D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		778EC0B71950DEBD00560D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "room-spaces-cocoapod/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		778EC0B81950DEBD00560D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "room-spaces-cocoapod/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		778EC0BA1950DEBD00560D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/room-spaces-cocoapod.app/room-spaces-cocoapod";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "room-spaces-cocoapodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		778EC0BB1950DEBD00560D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/room-spaces-cocoapod.app/room-spaces-cocoapod";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "room-spaces-cocoapodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778EC0971950DEBD00560D79 /* Build configuration list for PBXProject "room-spaces-cocoapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778EC0B41950DEBD00560D79 /* Debug */,
+				778EC0B51950DEBD00560D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778EC0B61950DEBD00560D79 /* Build configuration list for PBXNativeTarget "room-spaces-cocoapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778EC0B71950DEBD00560D79 /* Debug */,
+				778EC0B81950DEBD00560D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		778EC0B91950DEBD00560D79 /* Build configuration list for PBXNativeTarget "room-spaces-cocoapodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778EC0BA1950DEBD00560D79 /* Debug */,
+				778EC0BB1950DEBD00560D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		778EC0A31950DEBD00560D79 /* room_spaces_cocoapod.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				778EC0A41950DEBD00560D79 /* room_spaces_cocoapod.xcdatamodel */,
+			);
+			currentVersion = 778EC0A41950DEBD00560D79 /* room_spaces_cocoapod.xcdatamodel */;
+			path = room_spaces_cocoapod.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 778EC0941950DEBD00560D79 /* Project object */;
+}
