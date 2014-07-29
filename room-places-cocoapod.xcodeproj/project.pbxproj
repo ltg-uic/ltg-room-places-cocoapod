@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		771344F61979FBD2006A257C /* LTGRoomPlacesMQTTPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771344F51979FBD2006A257C /* LTGRoomPlacesMQTTPipe.swift */; };
+		77685A6919770B79008951F5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77685A6819770B79008951F5 /* libPods.a */; };
+		77D605311978732C00509418 /* room_places_cocoapod_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D605301978732C00509418 /* room_places_cocoapod_Tests.swift */; };
+		77E5B3FD19786EEE0025B6F1 /* LTGRoomPlacesBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3E519786EEE0025B6F1 /* LTGRoomPlacesBeacon.swift */; };
+		77E5B3FE19786EEE0025B6F1 /* LTGRoomPlacesESTBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3E619786EEE0025B6F1 /* LTGRoomPlacesESTBeacon.swift */; };
+		77E5B3FF19786EEE0025B6F1 /* LTGRoomPlacesFixedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3E719786EEE0025B6F1 /* LTGRoomPlacesFixedReader.swift */; };
+		77E5B40319786EEE0025B6F1 /* LTGRoomPlacesSwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3EB19786EEE0025B6F1 /* LTGRoomPlacesSwiftyJSON.swift */; };
+		77E5B40419786EEE0025B6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3EE19786EEE0025B6F1 /* AppDelegate.swift */; };
+		77E5B40519786EEE0025B6F1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3EF19786EEE0025B6F1 /* CustomTableViewCell.swift */; };
+		77E5B40619786EEE0025B6F1 /* FixedReaderTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3F019786EEE0025B6F1 /* FixedReaderTestViewController.swift */; };
+		77E5B40719786EEE0025B6F1 /* FixedReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3F119786EEE0025B6F1 /* FixedReaderViewController.swift */; };
+		77E5B40819786EEE0025B6F1 /* beacon_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E5B3F319786EEE0025B6F1 /* beacon_gray.png */; };
+		77E5B40919786EEE0025B6F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E5B3F419786EEE0025B6F1 /* Images.xcassets */; };
+		77E5B40A19786EEE0025B6F1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77E5B3F519786EEE0025B6F1 /* Info.plist */; };
+		77E5B40B19786EEE0025B6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E5B3F619786EEE0025B6F1 /* Main.storyboard */; };
+		77E5B40C19786EEE0025B6F1 /* MovingReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3F719786EEE0025B6F1 /* MovingReaderViewController.swift */; };
+		77E5B40D19786EEE0025B6F1 /* room_places_cocoapod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77E5B3F819786EEE0025B6F1 /* room_places_cocoapod.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		771344EF1979F356006A257C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778EC0941950DEBD00560D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778EC09B1950DEBD00560D79;
+			remoteInfo = "room-places-cocoapod";
+		};
+		771344F11979F356006A257C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778EC0941950DEBD00560D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778EC09B1950DEBD00560D79;
+			remoteInfo = "room-places-cocoapod";
+		};
+		771344F31979F768006A257C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778EC0941950DEBD00560D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778EC09B1950DEBD00560D79;
+			remoteInfo = "room-places-cocoapod";
+		};
+		77D605321978732C00509418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778EC0941950DEBD00560D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778EC09B1950DEBD00560D79;
+			remoteInfo = "room-places-cocoapod";
+		};
+		77D605371978732C00509418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778EC0941950DEBD00560D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778EC09B1950DEBD00560D79;
+			remoteInfo = "room-places-cocoapod";
+		};
+		77D605391978732C00509418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778EC0941950DEBD00560D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778EC09B1950DEBD00560D79;
+			remoteInfo = "room-places-cocoapod";
+		};
+		77D6053B1978851E00509418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778EC0941950DEBD00560D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778EC09B1950DEBD00560D79;
+			remoteInfo = "room-places-cocoapod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		771344F51979FBD2006A257C /* LTGRoomPlacesMQTTPipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTGRoomPlacesMQTTPipe.swift; sourceTree = "<group>"; };
+		77685A6819770B79008951F5 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		778EC09C1950DEBD00560D79 /* room-places-cocoapod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "room-places-cocoapod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D6052C1978732C00509418 /* room-places-cocoapod Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "room-places-cocoapod Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D6052F1978732C00509418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D605301978732C00509418 /* room_places_cocoapod_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = room_places_cocoapod_Tests.swift; sourceTree = "<group>"; };
+		77E5B3E519786EEE0025B6F1 /* LTGRoomPlacesBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTGRoomPlacesBeacon.swift; sourceTree = "<group>"; };
+		77E5B3E619786EEE0025B6F1 /* LTGRoomPlacesESTBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTGRoomPlacesESTBeacon.swift; sourceTree = "<group>"; };
+		77E5B3E719786EEE0025B6F1 /* LTGRoomPlacesFixedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTGRoomPlacesFixedReader.swift; sourceTree = "<group>"; };
+		77E5B3EB19786EEE0025B6F1 /* LTGRoomPlacesSwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTGRoomPlacesSwiftyJSON.swift; sourceTree = "<group>"; };
+		77E5B3EC19786EEE0025B6F1 /* room-places-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "room-places-Bridging-Header.h"; sourceTree = "<group>"; };
+		77E5B3EE19786EEE0025B6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77E5B3EF19786EEE0025B6F1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		77E5B3F019786EEE0025B6F1 /* FixedReaderTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedReaderTestViewController.swift; sourceTree = "<group>"; };
+		77E5B3F119786EEE0025B6F1 /* FixedReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedReaderViewController.swift; sourceTree = "<group>"; };
+		77E5B3F319786EEE0025B6F1 /* beacon_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beacon_gray.png; sourceTree = "<group>"; };
+		77E5B3F419786EEE0025B6F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77E5B3F519786EEE0025B6F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E5B3F619786EEE0025B6F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		77E5B3F719786EEE0025B6F1 /* MovingReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingReaderViewController.swift; sourceTree = "<group>"; };
+		77E5B3F919786EEE0025B6F1 /* room_spaces_cocoapod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = room_spaces_cocoapod.xcdatamodel; sourceTree = "<group>"; };
+		8C360F8FAE9D4A5EB94B4B28 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778EC0991950DEBD00560D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77685A6919770B79008951F5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D605291978732C00509418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778EC0931950DEBD00560D79 = {
+			isa = PBXGroup;
+			children = (
+				77E5B3E419786EEE0025B6F1 /* room-places-API */,
+				77E5B3EC19786EEE0025B6F1 /* room-places-Bridging-Header.h */,
+				77E5B3ED19786EEE0025B6F1 /* room-places-cocoapod */,
+				77D6052D1978732C00509418 /* room-places-cocoapod Tests */,
+				778EC09D1950DEBD00560D79 /* Products */,
+				8C360F8FAE9D4A5EB94B4B28 /* Pods.xcconfig */,
+				E6EC7E2DC1DD40738C3E1D27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		778EC09D1950DEBD00560D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778EC09C1950DEBD00560D79 /* room-places-cocoapod.app */,
+				77D6052C1978732C00509418 /* room-places-cocoapod Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77D6052D1978732C00509418 /* room-places-cocoapod Tests */ = {
+			isa = PBXGroup;
+			children = (
+				77D605301978732C00509418 /* room_places_cocoapod_Tests.swift */,
+				77D6052E1978732C00509418 /* Supporting Files */,
+			);
+			path = "room-places-cocoapod Tests";
+			sourceTree = "<group>";
+		};
+		77D6052E1978732C00509418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D6052F1978732C00509418 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77E5B3E419786EEE0025B6F1 /* room-places-API */ = {
+			isa = PBXGroup;
+			children = (
+				77E5B3E519786EEE0025B6F1 /* LTGRoomPlacesBeacon.swift */,
+				77E5B3E619786EEE0025B6F1 /* LTGRoomPlacesESTBeacon.swift */,
+				77E5B3E719786EEE0025B6F1 /* LTGRoomPlacesFixedReader.swift */,
+				77E5B3EB19786EEE0025B6F1 /* LTGRoomPlacesSwiftyJSON.swift */,
+				771344F51979FBD2006A257C /* LTGRoomPlacesMQTTPipe.swift */,
+			);
+			path = "room-places-API";
+			sourceTree = "<group>";
+		};
+		77E5B3ED19786EEE0025B6F1 /* room-places-cocoapod */ = {
+			isa = PBXGroup;
+			children = (
+				77E5B3EE19786EEE0025B6F1 /* AppDelegate.swift */,
+				77E5B3EF19786EEE0025B6F1 /* CustomTableViewCell.swift */,
+				77E5B3F019786EEE0025B6F1 /* FixedReaderTestViewController.swift */,
+				77E5B3F119786EEE0025B6F1 /* FixedReaderViewController.swift */,
+				77E5B3F219786EEE0025B6F1 /* images */,
+				77E5B3F419786EEE0025B6F1 /* Images.xcassets */,
+				77E5B3F519786EEE0025B6F1 /* Info.plist */,
+				77E5B3F619786EEE0025B6F1 /* Main.storyboard */,
+				77E5B3F719786EEE0025B6F1 /* MovingReaderViewController.swift */,
+				77E5B3F819786EEE0025B6F1 /* room_places_cocoapod.xcdatamodeld */,
+			);
+			path = "room-places-cocoapod";
+			sourceTree = "<group>";
+		};
+		77E5B3F219786EEE0025B6F1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				77E5B3F319786EEE0025B6F1 /* beacon_gray.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E6EC7E2DC1DD40738C3E1D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77685A6819770B79008951F5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778EC09B1950DEBD00560D79 /* room-places-cocoapod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778EC0B61950DEBD00560D79 /* Build configuration list for PBXNativeTarget "room-places-cocoapod" */;
+			buildPhases = (
+				C2C632AF155143B587397215 /* Check Pods Manifest.lock */,
+				778EC0981950DEBD00560D79 /* Sources */,
+				778EC0991950DEBD00560D79 /* Frameworks */,
+				778EC09A1950DEBD00560D79 /* Resources */,
+				B11B9986CA0849CDA9BD8237 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "room-places-cocoapod";
+			productName = "room-spaces-cocoapod";
+			productReference = 778EC09C1950DEBD00560D79 /* room-places-cocoapod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77D6052B1978732C00509418 /* room-places-cocoapod Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D605361978732C00509418 /* Build configuration list for PBXNativeTarget "room-places-cocoapod Tests" */;
+			buildPhases = (
+				77D605281978732C00509418 /* Sources */,
+				77D605291978732C00509418 /* Frameworks */,
+				77D6052A1978732C00509418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77D605331978732C00509418 /* PBXTargetDependency */,
+				77D605381978732C00509418 /* PBXTargetDependency */,
+				77D6053A1978732C00509418 /* PBXTargetDependency */,
+				77D6053C1978851E00509418 /* PBXTargetDependency */,
+				771344F01979F356006A257C /* PBXTargetDependency */,
+				771344F21979F356006A257C /* PBXTargetDependency */,
+				771344F41979F768006A257C /* PBXTargetDependency */,
+			);
+			name = "room-places-cocoapod Tests";
+			productName = "room-places-cocoapod Tests";
+			productReference = 77D6052C1978732C00509418 /* room-places-cocoapod Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778EC0941950DEBD00560D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LTG;
+				TargetAttributes = {
+					778EC09B1950DEBD00560D79 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = F554V774C5;
+					};
+					77D6052B1978732C00509418 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 778EC09B1950DEBD00560D79;
+					};
+				};
+			};
+			buildConfigurationList = 778EC0971950DEBD00560D79 /* Build configuration list for PBXProject "room-places-cocoapod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 778EC0931950DEBD00560D79;
+			productRefGroup = 778EC09D1950DEBD00560D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778EC09B1950DEBD00560D79 /* room-places-cocoapod */,
+				77D6052B1978732C00509418 /* room-places-cocoapod Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778EC09A1950DEBD00560D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E5B40B19786EEE0025B6F1 /* Main.storyboard in Resources */,
+				77E5B40819786EEE0025B6F1 /* beacon_gray.png in Resources */,
+				77E5B40919786EEE0025B6F1 /* Images.xcassets in Resources */,
+				77E5B40A19786EEE0025B6F1 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D6052A1978732C00509418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B11B9986CA0849CDA9BD8237 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C632AF155143B587397215 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778EC0981950DEBD00560D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771344F61979FBD2006A257C /* LTGRoomPlacesMQTTPipe.swift in Sources */,
+				77E5B40519786EEE0025B6F1 /* CustomTableViewCell.swift in Sources */,
+				77E5B3FE19786EEE0025B6F1 /* LTGRoomPlacesESTBeacon.swift in Sources */,
+				77E5B3FF19786EEE0025B6F1 /* LTGRoomPlacesFixedReader.swift in Sources */,
+				77E5B40719786EEE0025B6F1 /* FixedReaderViewController.swift in Sources */,
+				77E5B40D19786EEE0025B6F1 /* room_places_cocoapod.xcdatamodeld in Sources */,
+				77E5B40319786EEE0025B6F1 /* LTGRoomPlacesSwiftyJSON.swift in Sources */,
+				77E5B40C19786EEE0025B6F1 /* MovingReaderViewController.swift in Sources */,
+				77E5B3FD19786EEE0025B6F1 /* LTGRoomPlacesBeacon.swift in Sources */,
+				77E5B40419786EEE0025B6F1 /* AppDelegate.swift in Sources */,
+				77E5B40619786EEE0025B6F1 /* FixedReaderTestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D605281978732C00509418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D605311978732C00509418 /* room_places_cocoapod_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		771344F01979F356006A257C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778EC09B1950DEBD00560D79 /* room-places-cocoapod */;
+			targetProxy = 771344EF1979F356006A257C /* PBXContainerItemProxy */;
+		};
+		771344F21979F356006A257C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778EC09B1950DEBD00560D79 /* room-places-cocoapod */;
+			targetProxy = 771344F11979F356006A257C /* PBXContainerItemProxy */;
+		};
+		771344F41979F768006A257C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778EC09B1950DEBD00560D79 /* room-places-cocoapod */;
+			targetProxy = 771344F31979F768006A257C /* PBXContainerItemProxy */;
+		};
+		77D605331978732C00509418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778EC09B1950DEBD00560D79 /* room-places-cocoapod */;
+			targetProxy = 77D605321978732C00509418 /* PBXContainerItemProxy */;
+		};
+		77D605381978732C00509418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778EC09B1950DEBD00560D79 /* room-places-cocoapod */;
+			targetProxy = 77D605371978732C00509418 /* PBXContainerItemProxy */;
+		};
+		77D6053A1978732C00509418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778EC09B1950DEBD00560D79 /* room-places-cocoapod */;
+			targetProxy = 77D605391978732C00509418 /* PBXContainerItemProxy */;
+		};
+		77D6053C1978851E00509418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778EC09B1950DEBD00560D79 /* room-places-cocoapod */;
+			targetProxy = 77D6053B1978851E00509418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		778EC0B41950DEBD00560D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		778EC0B51950DEBD00560D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		778EC0B71950DEBD00560D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C360F8FAE9D4A5EB94B4B28 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "room-places-cocoapod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "room-places-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		778EC0B81950DEBD00560D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C360F8FAE9D4A5EB94B4B28 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "room-places-cocoapod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "room-places-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		77D605341978732C00509418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/room-places-cocoapod.app/room-places-cocoapod";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "room-places-cocoapod Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		77D605351978732C00509418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/room-places-cocoapod.app/room-places-cocoapod";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "room-places-cocoapod Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778EC0971950DEBD00560D79 /* Build configuration list for PBXProject "room-places-cocoapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778EC0B41950DEBD00560D79 /* Debug */,
+				778EC0B51950DEBD00560D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778EC0B61950DEBD00560D79 /* Build configuration list for PBXNativeTarget "room-places-cocoapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778EC0B71950DEBD00560D79 /* Debug */,
+				778EC0B81950DEBD00560D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D605361978732C00509418 /* Build configuration list for PBXNativeTarget "room-places-cocoapod Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D605341978732C00509418 /* Debug */,
+				77D605351978732C00509418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77E5B3F819786EEE0025B6F1 /* room_places_cocoapod.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77E5B3F919786EEE0025B6F1 /* room_spaces_cocoapod.xcdatamodel */,
+			);
+			currentVersion = 77E5B3F919786EEE0025B6F1 /* room_spaces_cocoapod.xcdatamodel */;
+			path = room_places_cocoapod.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 778EC0941950DEBD00560D79 /* Project object */;
+}
