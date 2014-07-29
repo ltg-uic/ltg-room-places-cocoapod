@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
         :file => 'LICENSE'
     }
     s.author            = {
-        'Paulo Guerr' => 'paulinhog84@gmail.com'
+        'Paulo Guerra' => 'paulinhog84@gmail.com'
     }
     s.source            = {
         :git => 'https://github.com/ltg-uic/ltg-room-places-cocoapod.git',
